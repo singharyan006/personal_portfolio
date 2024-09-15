@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.header-box {
+    background-color: rgba(50, 0, 0, 0.959);
+    border: 2px solid #00000083;
+    border-radius: 10px;
+    padding: 100px;
+    display: flex;
+    justify-content: flex-start; /* Removed the right section */
+    align-items: flex-start;
+    width: 100%;
+}
+
+.top-left h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Vertically align the image and text */
+    gap: 40px; /* Add spacing between the image and text */
+    margin-top: 50px; /* Add space above the profile content */
+    padding: 0 20px; /* Add horizontal padding */
+}
+
+.profile-photo {
+    width: 300px; /* Increased the size */
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    transition: transform 0.3s ease;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+}
+
+
+.intro {
+    max-width: 600px; /* Limit the width of the text */
+}
+
+.intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px; /* Increase space below the paragraph */
+}
+
+.full-bio, .projects, .tech-expertise, #contact-us {
+    margin-top: 50px; /* Add space between sections */
+    padding: 20px;
+}
+
+.full-bio p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    width: 77%;
+    text-align: justify;
+}
+
+/* Tech Expertise Section */
+.tech-expertise h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.expertise-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduced space between items */
+}
+
+.expertise-item {
+    font-size: 0.9rem; /* Keep smaller size */
+    margin: 5px 0; /* Reduced margins */
+    padding: 10px; /* Reduced padding */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+
+.expertise-item:hover {
+    transform: scale(1.05);
+}
+
+.python {
+    background-color: #306998;
+    color: #fff;
+}
+
+.mysql {
+    background-color: #00758f;
+    color: #fff;
+}
+
+.c {
+    background-color: #00599c;
+    color: #fff;
+}
+
+.html {
+    background-color: #e34c26;
+    color: #fff;
+}
+
+.css {
+    background-color: #264de4;
+    color: #fff;
+}
+
+.projects {
+    max-width: 2000px;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: rgba(50, 13, 13, 0.1);
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.projects h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px; /* Increase space below heading */
+}
+
+/* Contact Us Section */
+#contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Capitalize */
+    text-align: center; /* Center align */
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap; /* Ensure items stay in a single row */
+    gap: 20px; /* Add space between the contact items */
+}
+
+.contact-item {
+    margin: 0; /* Remove extra margins */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.contact-item i {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.contact-item a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: scale(1.1);
+}
+
+.contact-item a:hover {
+    color: #FFD700;
+}
+
