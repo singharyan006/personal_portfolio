@@ -1,195 +1,145 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <div class="top-left">
+                <h1>ARYAN SINGH</h1>
+            </div>
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-}
+        </div>
+    </header>
 
-header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    position: relative;
-}
+    <main>
+        <div class="profile-content">
+            <img src="pfp.jpg" alt="Profile picture of Aryan Singh" class="profile-photo">
 
-.header-box {
-    background-color: rgba(50, 0, 0, 0.959);
-    border: 2px solid #00000083;
-    border-radius: 10px;
-    padding: 100px;
-    display: flex;
-    justify-content: flex-start; /* Removed the right section */
-    align-items: flex-start;
-    width: 100%;
-}
-
-.top-left h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.profile-content {
-    display: flex;
-    justify-content: flex-start; /* Align items to the left */
-    align-items: center; /* Vertically align the image and text */
-    gap: 40px; /* Add spacing between the image and text */
-    margin-top: 50px; /* Add space above the profile content */
-    padding: 0 20px; /* Add horizontal padding */
-}
-
-.profile-photo {
-    width: 300px; /* Increased the size */
-    height: auto;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    transition: transform 0.3s ease;
-    margin-top: 40px;
-    margin-left: 130px;
-}
-
-.profile-photo:hover {
-    transform: scale(1.05);
-}
+            <section>
+                <div class="intro">
+                <p>
+                    I'm a rising senior at SRM IST, KTR, where I'm passionately diving into Cyber Security. With a keen interest in Ethical Hacking and Web Development, I'm excited to explore the endless possibilities that lie ahead in my career journey! 😊
+                </p>
+            </div>
+        </section>
+        </div>
 
 
-.intro {
-    max-width: 600px; /* Limit the width of the text */
-}
+        <div class="full-bio">
+            <p>
+                Born and raised in Singrauli, M.P., I developed a deep passion for technology that has significantly shaped my personal and professional journey. As I enter my final year at SRM IST, KTR, I am dedicated to my studies in Cyber Security at SRM, where I continually strive for excellence. Beyond academics, I am actively involved in Hackathons and other similar activities, which allow me to further cultivate my skills and connect with like-minded individuals. I am excited to embrace the opportunities that lie ahead!
+            </p>
+        </div>
 
-.intro p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    text-align: justify;
-    margin-bottom: 20px; /* Increase space below the paragraph */
-}
+        <section>
+            <div class="tech-expertise">
+                <h2>TECH EXPERTISE</h2>
+                <div class="expertise-list">
+                    <span class="expertise-item python">Python</span>
+                    <span class="expertise-item mysql">MySQL</span>
+                    <span class="expertise-item c">C</span>
+                    <span class="expertise-item html">HTML</span>
+                    <span class="expertise-item css">CSS</span>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
 
-.full-bio, .projects, .tech-expertise, #contact-us {
-    margin-top: 50px; /* Add space between sections */
-    padding: 20px;
-}
+        <section class="projects-section">
+            <h2>PROJECTS AND ACHIEVEMENTS</h2>
+            <div class="project">
+                <div class="project-description">
+                    <h3>Responsive Café Website</h3>
+                    <p>A fully responsive café website featuring a landing page, menu, and contact information. This project demonstrates layout design, mobile responsiveness, and user-friendly navigation.</p>
+                </div>
+               
+            </div>
+        
+            <div class="project alternate">
+                <div class="project-description">
+                    <h3>Interactive To-Do List</h3>
+                    <p>A dynamic to-do list that allows users to add, edit, and delete tasks. This project highlights your JavaScript skills, DOM manipulation, and user interaction features.</p>
+                </div>
+            </div>
+        
+            <div class="project">
+                <div class="project-description">
+                    <h3>Weather App</h3>
+                    <p>A web app that fetches real-time weather data from an API and displays it to the user. It shows your ability to work with APIs and create practical applications.</p>
+                </div>
+            </div>
 
-.full-bio p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin-bottom: 20px;
-    width: 77%;
-    text-align: justify;
-}
+        
+            <div class="project alternate">
+                <div class="project-description">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio site where you showcase your projects, experience, and contact information. It’s a perfect example of branding and presenting your work professionally.</p>
+                </div>
+            </div>
+        
+            <div class="project">
+                <div class="project-description">
+                    <h3>CTF Challenge Solver</h3>
+                    <p>A Python script that solves specific CTF challenges, demonstrating problem-solving skills, understanding of security, and technical prowess with Python scripting.</p>
+                </div>
+            </div>
+        
+        </section>
+        
+                
+        
+        <br>
+        <br>
+        <br>
+        <section id="contact-us">
+            <h2>Contact Me</h2>
+            <div class="contact-box">
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/aryan-singh-b3a28b329" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:your-aryanraisingh2006@gmail.com">Gmail</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/rn_raisingh_04" target="_blank">Instagram</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/singharyan006" target="_blank">GitHub</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+123456789">+123 456 789</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-youtube"></i>
+                    <a href="https://www.youtube.com" target="_blank">YouTube</a>
+                </div>
+            </div>
+        </section>
 
-/* Tech Expertise Section */
-.tech-expertise h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.expertise-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px; /* Reduced space between items */
-}
-
-.expertise-item {
-    font-size: 0.9rem; /* Keep smaller size */
-    margin: 5px 0; /* Reduced margins */
-    padding: 10px; /* Reduced padding */
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
+    </main>
+</body>
 
 
-.expertise-item:hover {
-    transform: scale(1.05);
-}
 
-.python {
-    background-color: #306998;
-    color: #fff;
-}
 
-.mysql {
-    background-color: #00758f;
-    color: #fff;
-}
 
-.c {
-    background-color: #00599c;
-    color: #fff;
-}
-
-.html {
-    background-color: #e34c26;
-    color: #fff;
-}
-
-.css {
-    background-color: #264de4;
-    color: #fff;
-}
-
-.projects {
-    max-width: 2000px;
-    margin: 10px 0;
-    padding: 20px;
-    background-color: rgba(50, 13, 13, 0.1);
-    border: 2px solid #fff;
-    border-radius: 10px;
-}
-
-.projects h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 20px; /* Increase space below heading */
-}
-
-/* Contact Us Section */
-#contact-us h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-transform: uppercase; /* Capitalize */
-    text-align: center; /* Center align */
-}
-
-.contact-box {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap; /* Ensure items stay in a single row */
-    gap: 20px; /* Add space between the contact items */
-}
-
-.contact-item {
-    margin: 0; /* Remove extra margins */
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    transition: transform 0.3s ease;
-}
-
-.contact-item i {
-    font-size: 2rem;
-    margin-right: 10px;
-}
-
-.contact-item a {
-    color: #fff;
-    font-size: 1.2rem;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.contact-item:hover {
-    transform: scale(1.1);
-}
-
-.contact-item a:hover {
-    color: #FFD700;
-}
-
+        <br>
+        <br>
+<footer>
+    <p>© 2024 every day. All rights reserved.</p>
+</footer>
+</html>
