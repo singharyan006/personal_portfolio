@@ -1,6 +1,7 @@
 # My portfolio
 
 The following are some snaps of my portfolio:
-![{C6D60748-8AC2-4022-AF90-11F418937AF7}](https://github.com/user-attachments/assets/63198fed-1335-40a5-b321-384978bfe00a)
-![{6056AD12-A08E-4715-80D1-6B28233BE213}](https://github.com/user-attachments/assets/ae85fc8e-034f-4c7e-ada7-837149494d4f)
-![{8EC72E3F-81F4-4D56-ADFC-4FD68599BEF4}](https://github.com/user-attachments/assets/c1c42432-b18a-44be-a37e-a4385c631182)
+![{FDA6AAC1-B30B-409A-9649-7B006B0A8E31}](https://github.com/user-attachments/assets/e9db575d-cc73-4bae-8383-b7eb73127577)
+![{B16D6376-3B5B-438A-9AA3-C311B0B4A6DE}](https://github.com/user-attachments/assets/a75e7ffc-4086-4edd-8dc3-0a33d19ef364)
+![{8055B8AB-953F-47E5-93AD-492CD3A8E705}](https://github.com/user-attachments/assets/6c9918c1-d36e-4c1e-95fa-3af0b8d686f4)
+
